@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn1"
+        android:textSize="30dp" />
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="btn2"
+        android:textSize="30dp"
+        android:layout_alignLeft="@+id/btn1"
+        android:layout_below="@+id/btn1"
+        />
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="btn3"
+        android:textSize="30dp"
+        android:layout_below="@+id/btn2"
+        android:layout_alignLeft="@+id/btn2"
+
+        />
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="btn4"
+        android:textSize="30dp"
+        android:layout_below="@+id/btn3"
+        android:layout_alignLeft="@+id/btn3"
+        />
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn5"
+        android:textSize="30dp"
+        android:layout_below="@+id/btn4"
+        android:layout_alignLeft="@+id/btn4"/>
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn6"
+        android:textSize="30dp"
+        android:layout_below="@+id/btn5"
+        android:layout_alignLeft="@+id/btn5"/>
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn7"
+        android:textSize="30dp"
+        android:layout_below="@+id/btn6"
+        android:layout_alignLeft="@+id/btn6"/>
+
+
+</RelativeLayout>
